@@ -468,16 +468,20 @@
                 </div>
             </div>
 
-            <div class="contrib-graph">
-                <div class="contrib-title">1,402 contributions in the last year</div>
-                <div class="graph-squares">
-                    <script>
-                        const classes = ['g-sq', 'g-sq g-l1', 'g-sq g-l2', 'g-sq', 'g-sq', 'g-sq g-l3', 'g-sq', 'g-sq g-l4', 'g-sq g-l1'];
-                        for(let i=0; i<200; i++) {
-                            const randomClass = classes[Math.floor(Math.random() * classes.length)];
-                            document.write(`<div class="${randomClass}"></div>`);
-                        }
-                    </script>
+            <div class="contrib-graph" style="margin-bottom: 40px; padding: 24px; border: 1px solid var(--gh-border); border-radius: 6px; background: var(--gh-bg-secondary);">
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
+                     <h2 style="font-weight: 400; font-size: 16px; color: var(--gh-text-main); margin: 0;">104 contributions in the last year</h2>
+                     <span style="font-size: 13px; color: var(--gh-text-muted);">Contribution settings ▾</span>
+                </div>
+                <div style="width: 100%; overflow-x: auto; border: 1px solid var(--gh-border); border-radius: 6px; padding: 16px;">
+                    <a href="https://github.com/SoumenDass1" target="_blank" style="display: block; min-width: 700px;">
+                        <img src="https://ghchart.rshah.org/SoumenDass1" alt="SoumenDass1's GitHub Contributions" style="width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); mix-blend-mode: screen;" />
+                    </a>
+                    
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; font-size: 12px; color: var(--gh-text-muted);">
+                        <a href="#" style="color: var(--gh-text-muted); text-decoration: none;">Learn how we count contributions</a>
+                        <div>Less <span style="display: inline-block; width:10px; height:10px; background:#161b22; border: 1px solid rgba(255,255,255,0.05); border-radius:2px; margin:0 2px;"></span><span style="display: inline-block; width:10px; height:10px; background:#0e4429; border-radius:2px; margin:0 2px;"></span><span style="display: inline-block; width:10px; height:10px; background:#006d32; border-radius:2px; margin:0 2px;"></span><span style="display: inline-block; width:10px; height:10px; background:#26a641; border-radius:2px; margin:0 2px;"></span><span style="display: inline-block; width:10px; height:10px; background:#39d353; border-radius:2px; margin:0 2px;"></span> More</div>
+                    </div>
                 </div>
             </div>
 

@@ -13,12 +13,6 @@ Welcome to my professional Data Analyst profile portfolio! This is a simple, dar
 - HTML5
 - Advanced CSS3 (Variables, Flexbox, CSS Grid)
 - Vanilla Javascript (DOM manipulation, Search Filtering)
-
-## How to Deploy 🚀
-1. Clone this repository locally.
-2. Open `index.html` in your favorite web browser.
-3. No build steps or heavy dependencies are required!
-
 ---
 
 *Designed and Developed by [Soumen Dass](https://github.com/SoumenDass1).*

@@ -15,4 +15,3 @@ Welcome to my professional Data Analyst profile portfolio! This is a simple, dar
 - Vanilla Javascript (DOM manipulation, Search Filtering)
 ---
 
-*Designed and Developed by [Soumen Dass](https://github.com/SoumenDass1).*

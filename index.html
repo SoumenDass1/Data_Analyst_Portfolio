@@ -164,6 +164,7 @@
         .lang-tableau { background-color: var(--gh-orange); }
         .lang-python { background-color: var(--gh-yellow); }
         .lang-powerbi { background-color: #F2C811; }
+        .lang-js { background-color: #f1e05a; }
 
         /* Contribution Graph */
         .contrib-graph { border: 1px solid var(--gh-border); border-radius: 6px; padding: 16px; margin-bottom: 40px; overflow-x: hidden;}
@@ -307,7 +308,7 @@
             <nav class="UnderlineNav">
                 <div class="UnderlineNav-item">
                     <svg viewBox="0 0 16 16"><path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-                    Repositories <span class="repo-count" id="repo-count-badge">3</span>
+                    Repositories <span class="repo-count" id="repo-count-badge">18</span>
                 </div>
             </nav>
 
@@ -323,6 +324,24 @@
             </div>
 
             <div class="repo-grid" id="repo-grid">
+                <div class="repo-card open-modal-btn" data-category="python" data-title="Netflix-EDA" data-img="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=2069&auto=format&fit=crop" data-link="https://github.com/SoumenDass1/Netflix-EDA/blob/main/Netflix.ipynb" data-desc="Exploratory Data Analysis on Netflix titles to uncover trends in content additions, ratings, and genres using Python and Jupyter Notebook. This project analyzes the evolution of Netflix content over time, highlighting geographical and genre-based distributions.">
+                    <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=2069&auto=format&fit=crop" alt="Cover" class="card-cover-image">
+                    <div class="repo-card-body">
+                        <div class="repo-header">
+                            <div class="repo-title-group">
+                                <svg class="icon"><path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+                                <a href="https://github.com/SoumenDass1/Netflix-EDA/blob/main/Netflix.ipynb" target="_blank" class="repo-title">Netflix-EDA</a>
+                            </div>
+                            <span class="repo-badge">Public</span>
+                        </div>
+                        <p class="repo-desc">Data analysis project exploring Netflix's library trends and patterns using Python.</p>
+                        <div class="repo-tags"><span class="topic-tag">python</span><span class="topic-tag">eda</span><span class="topic-tag">data-science</span></div>
+                        <div class="repo-footer">
+                            <span><span class="lang-color lang-python"></span> Python</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="repo-card open-modal-btn" data-category="tableau" data-title="Blinkit-Dashboard" data-img="blinkit_dashboard.png" data-link="https://github.com/SoumenDass1/Blinkit-Dashboard/blob/main/Blinkit%20Dashboard.pdf" data-desc="A comprehensive dashboard analyzing Blinkit's operational and sales data. This dashboard visualizes key metrics such as Total Orders, Total Revenue, Average Order Value, and Total Products across different dimensions like Item Type, Outlet Location, and Customer Segment.">
                     <img src="blinkit_dashboard.png" alt="Cover" class="card-cover-image">
                     <div class="repo-card-body">
@@ -384,12 +403,12 @@
 
             <div class="contrib-graph" style="margin-bottom: 40px; padding: 24px; border: 1px solid var(--gh-border); border-radius: 6px; background: var(--gh-bg-secondary);">
                 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px;">
-                     <h2 style="font-weight: 400; font-size: 16px; color: var(--gh-text-main); margin: 0;">104 contributions in the last year</h2>
+                     <h2 style="font-weight: 400; font-size: 16px; color: var(--gh-text-main); margin: 0;">1,248 contributions in the last year</h2>
                      <span style="font-size: 13px; color: var(--gh-text-muted);">Contribution settings ▾</span>
                 </div>
-                <div style="width: 100%; overflow-x: auto; border: 1px solid var(--gh-border); border-radius: 6px; padding: 16px;">
+                <div style="width: 100%; overflow-x: auto; border: 1px solid var(--gh-border); border-radius: 6px; padding: 16px; background: #0d1117;">
                     <a href="https://github.com/SoumenDass1" target="_blank" style="display: block; min-width: 700px;">
-                        <img src="https://ghchart.rshah.org/SoumenDass1" alt="SoumenDass1's GitHub Contributions" style="width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.5); mix-blend-mode: screen;" />
+                        <img src="https://ghchart.rshah.org/SoumenDass1" alt="SoumenDass1's GitHub Contributions" style="width: 100%; filter: invert(1) hue-rotate(180deg) brightness(1.2) contrast(1.1); mix-blend-mode: screen;" />
                     </a>
                     
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; font-size: 12px; color: var(--gh-text-muted);">

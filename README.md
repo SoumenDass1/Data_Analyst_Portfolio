@@ -13,5 +13,4 @@ Welcome to my professional Data Analyst profile portfolio! This is a simple, dar
 - HTML5
 - Advanced CSS3 (Variables, Flexbox, CSS Grid)
 - Vanilla Javascript (DOM manipulation, Search Filtering)
----
 

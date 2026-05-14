@@ -7,7 +7,8 @@ Welcome to my professional Data Analyst profile portfolio! This is a simple, dar
 - **Real-Time Interactive Graph**: Contains my exact, real-time fetching GitHub Contributions Graph synced directly from the API.
 - **Repository Categorization**: Repositories are strictly categorized by tools (Excel, Looker Studio, Python, Tableau).
 - **Project Modals**: Fast, interactive modals showcasing rich visuals and insights of the data architectures.
-- **Fully Responsive** : Adapts seamlessly from Desktop to Mobile.
+- **Fully Responsive**: Adapts seamlessly from Desktop to Mobile.
+- **Modes**: Added dark and light mode.
 
 ## Tech Stack 
 - HTML5
